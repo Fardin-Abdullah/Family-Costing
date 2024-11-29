@@ -3,15 +3,8 @@ class ClothingStore:
         self.items = {}  # Dictionary to store item names, prices, and quantities
 
     def add_item(self, item_name, price, quantity):
-        self.item = item_name
-        self.price = price
-        self.quantity = quantity
         """
         Add an item to the store with its price and quantity.
-        Args:
-            item_name (str): Name of the clothing item.
-            price (float): Price of the item.
-            quantity (int): Quantity of the item.
         """
         self.items[item_name] = {"price": price, "quantity": quantity}
 
